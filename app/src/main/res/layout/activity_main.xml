@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="131dp"
+            android:layout_height="161dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="68dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/reloj1" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="113dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="124dp"
+            android:fontFamily="casual"
+            android:text="@string/reloj_boss"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.472"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:fontFamily="casual"
+            android:layout_width="125dp"
+            android:layout_height="166dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="52dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5"
+            app:srcCompat="@drawable/relo2" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:fontFamily="casual"
+            android:layout_width="104dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="156dp"
+            android:text="@string/reloj_chino"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView6"
+            app:layout_constraintTop_toBottomOf="@+id/tv1" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="138dp"
+            android:layout_height="177dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6"
+            app:srcCompat="@drawable/reloj3" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="128dp"
+            android:fontFamily="casual"
+            android:layout_height="45dp"
+            android:layout_marginTop="148dp"
+            android:text="@string/reloj_casio"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.556"
+            app:layout_constraintStart_toEndOf="@+id/imageView7"
+            app:layout_constraintTop_toBottomOf="@+id/tv2" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SrpintM4</string>
+    <string name="reloj_casio">Reloj Casio</string>
+    <string name="reloj_chino">Reloj Chino</string>
+    <string name="reloj_boss">Reloj Boss</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="button_web">Abrir web</string>
+    <string name="web_url">https://www.larelojeria.cl</string>
+</resources>
